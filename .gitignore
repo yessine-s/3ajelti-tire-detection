@@ -1,0 +1,44 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+keys.txt
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+
+# Python environments and generated files
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datasets, local checkpoints, and training output
+tyre_model/data/
+tyre_model/outputs/
+/model/
+yolov8s.pt
+
+# Expo / React Native generated files
+.expo/
+node_modules/
+TireAI/node_modules/
+dist/
+web-build/
+.metro-health-check*
+*.tsbuildinfo
+
+# Local native builds
+android/
+ios/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
